@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Hamston;
+    src: url(/public/Fonts/Hamston.ttf);
+}
+
+@font-face {
+    font-family: Hero;
+    src: url(/public/Fonts/Heroking-Regular.ttf);
+}
+
+@import "tailwindcss";
+
+@theme {
+    --font-hamston: Hamston, "sans-serif";
+    --font-hero: Hero, "sans-serif";
+}
